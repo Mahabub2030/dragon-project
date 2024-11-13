@@ -1,3 +1,4 @@
+import Breakinwes from "./Breakinwes";
 import Header from "./Shaerd/Header";
 import LeftSideBar from "./Shaerd/LeftSideBar";
 import Navbar from "./Shaerd/Navbar";
@@ -8,6 +9,7 @@ const Home = () => {
   return (
     <div>
       <Header></Header>
+      <Breakinwes></Breakinwes>
       <Navbar></Navbar>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
         <div className="border" >
